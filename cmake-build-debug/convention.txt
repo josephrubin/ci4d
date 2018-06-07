@@ -1,0 +1,20 @@
+Header file of the form [name].h.
+
+    The data structure has a struct of the form s_[NAME].
+        Fields are one word, lower case.
+        Methods are one word, lower case, starting with _.
+            Typedefs are in ftypes.h, of the form [type_name].
+            A _kill method is provided.
+
+    The data structure has a typedef of the form [NAME].
+
+    The data structure has a controller struct of the form s_c_[NAME].
+        Methods are one word, lower case, same name as the original struct method names, without the _.
+            Typedefs are the same as the original struct typedefs.
+            A kill method is provided.
+
+C file of the form [name].c.
+
+    Controller methods are defined here as static.
+
+    The controller has a single instance of the form [Name].
