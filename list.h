@@ -73,7 +73,7 @@ struct s_LIST
  */
 struct s_c_LIST
 {
-    seqlist_make safeary;
+    seqlist_make seqlist;
 
     list_kill kill;
     list_size size;

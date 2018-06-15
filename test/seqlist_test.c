@@ -10,7 +10,8 @@ int main()
     LIST *mine = List.seqlist(20);
     printf("size: %d\n", List.size(mine));
 
-    List.append(mine, PTR(7));
+    List.append(mine, PTR(int, 7));
+    List.append(mine, PTR(int, 5));
 
     List.kill(mine);
 }

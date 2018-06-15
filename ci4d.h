@@ -8,5 +8,6 @@
 #include "util/util.h"
 
 #include "ary.h"
+#include "list.h"
 
 #endif //CI4D_CI4D_H
