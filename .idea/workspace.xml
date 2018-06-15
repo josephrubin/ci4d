@@ -11,13 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6cbe15d-2327-4f1b-9192-1b9789ed88d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ary/safeary.c" beforeDir="false" afterPath="$PROJECT_DIR$/ary/safeary.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/seqlist.c" beforeDir="false" afterPath="$PROJECT_DIR$/list/seqlist.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out.exe" beforeDir="false" afterPath="$PROJECT_DIR$/out.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/seqlist_test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/seqlist_test.c" afterDir="false" />
-    </list>
+    <list default="true" id="c6cbe15d-2327-4f1b-9192-1b9789ed88d5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="safeary_test.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="safeary_test.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/safeary_test.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="e#41#59#0" expanded="true" />
               </folding>
@@ -116,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seqlist.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seqlist.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list/seqlist.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
@@ -267,12 +261,12 @@
       <workItem from="1528405756424" duration="8745000" />
       <workItem from="1528900481358" duration="65000" />
       <workItem from="1528900576722" duration="1810000" />
-      <workItem from="1529062947022" duration="8537000" />
+      <workItem from="1529062947022" duration="9144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19157000" />
+    <option name="totallyTimeSpent" value="19764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -572,16 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/safeary_test.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ary.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-62">
@@ -623,16 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ary/safeary.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/seqlist_test.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -649,6 +623,26 @@
           <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ary/safeary.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/safeary_test.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
