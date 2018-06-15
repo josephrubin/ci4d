@@ -59,7 +59,7 @@ ARY *_safeary_make(int capacity)
     mlc(ARY, make, safeary_kill);
 
     make->capacity = capacity;
-
+//todo: allocate items???
     make->_kill = safeary_kill;
     make->_capacity = safeary_capacity;
     make->_get = safeary_get;

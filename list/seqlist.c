@@ -51,19 +51,27 @@ void seqlist_prepend(LIST *this, void *item)
 
     // Insert the new item.
     this->containers[0] = item;
+
+    this->size++;
 }
 
 /**
  * @private
  */
-static LIST *_seqlist_make(int capacity)
+LIST *_seqlist_make(int capacity)
 {
     mlc(LIST, make, seqlist_kill);
 
     make->capacity = capacity;
+    make->size = 0;
+
+    //todo: unsafe malloc
+    make->containers = malloc(sizeof make->containers *  make->capacity);
 
     make->_kill = seqlist_kill;
     make->_size = seqlist_size;
     make->_append = seqlist_append;
     make->_prepend = seqlist_prepend;
+
+    return make;
 }

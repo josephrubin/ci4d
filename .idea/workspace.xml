@@ -12,8 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6cbe15d-2327-4f1b-9192-1b9789ed88d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ci4d.h" beforeDir="false" afterPath="$PROJECT_DIR$/ci4d.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list.h" beforeDir="false" afterPath="$PROJECT_DIR$/list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ary/safeary.c" beforeDir="false" afterPath="$PROJECT_DIR$/ary/safeary.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/seqlist.c" beforeDir="false" afterPath="$PROJECT_DIR$/list/seqlist.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out.exe" beforeDir="false" afterPath="$PROJECT_DIR$/out.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/seqlist_test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/seqlist_test.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -30,7 +32,7 @@
       <file leaf-file-name="ary.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ary.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
+            <state relative-caret-position="850">
               <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
             </state>
           </provider>
@@ -39,17 +41,8 @@
       <file leaf-file-name="list.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="1275">
               <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ftypes.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ftypes.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -57,7 +50,7 @@
       <file leaf-file-name="ary.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ary.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="-62">
               <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="e#41#57#0" expanded="true" />
@@ -81,8 +74,8 @@
       <file leaf-file-name="safeary_test.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/safeary_test.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#41#59#0" expanded="true" />
               </folding>
@@ -102,8 +95,8 @@
       <file leaf-file-name="safeary.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ary/safeary.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+            <state relative-caret-position="227">
+              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
               </folding>
@@ -111,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seqlist_test.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seqlist_test.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/seqlist_test.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="204">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding>
                 <element signature="e#42#60#0" expanded="true" />
               </folding>
@@ -123,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seqlist.c" pinned="false" current-in-tab="false">
+      <file leaf-file-name="seqlist.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/list/seqlist.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="363">
+              <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
               <folding>
                 <element signature="e#42#61#0" expanded="true" />
               </folding>
@@ -154,17 +147,17 @@
         <option value="$PROJECT_DIR$/ary.h" />
         <option value="$PROJECT_DIR$/terms" />
         <option value="$PROJECT_DIR$/util/util.h" />
-        <option value="$PROJECT_DIR$/ary/safeary.c" />
         <option value="$PROJECT_DIR$/ary.c" />
         <option value="$PROJECT_DIR$/ftypes.h" />
-        <option value="$PROJECT_DIR$/list/seqlist.c" />
         <option value="$PROJECT_DIR$/list/seqlist.h" />
         <option value="$PROJECT_DIR$/list.c" />
         <option value="$PROJECT_DIR$/ary/safeary.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ci4d.h" />
         <option value="$PROJECT_DIR$/list.h" />
+        <option value="$PROJECT_DIR$/ary/safeary.c" />
         <option value="$PROJECT_DIR$/test/seqlist_test.c" />
+        <option value="$PROJECT_DIR$/list/seqlist.c" />
       </list>
     </option>
   </component>
@@ -274,12 +267,12 @@
       <workItem from="1528405756424" duration="8745000" />
       <workItem from="1528900481358" duration="65000" />
       <workItem from="1528900576722" duration="1810000" />
-      <workItem from="1529062947022" duration="7693000" />
+      <workItem from="1529062947022" duration="8537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18313000" />
+    <option name="totallyTimeSpent" value="19157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -551,47 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list/seqlist.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ary/safeary.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list/seqlist.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="e#42#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ary/safeary.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ary.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#41#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,20 +572,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ary.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/safeary_test.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#41#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ary.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#41#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/seqlist.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -643,19 +609,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ary.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/list.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="1275">
           <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ary/safeary.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/seqlist_test.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="204">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding>
             <element signature="e#42#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/seqlist.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding>
+            <element signature="e#42#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
