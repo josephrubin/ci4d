@@ -176,32 +176,59 @@ ary/safeary.c.s:
 	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/ary/safeary.c.s
 .PHONY : ary/safeary.c.s
 
-test.obj: test.c.obj
+list.obj: list.c.obj
 
-.PHONY : test.obj
+.PHONY : list.obj
 
 # target to build an object file
-test.c.obj:
-	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test.c.obj
-.PHONY : test.c.obj
+list.c.obj:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/list.c.obj
+.PHONY : list.c.obj
 
-test.i: test.c.i
+list.i: list.c.i
 
-.PHONY : test.i
+.PHONY : list.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test.c.i
-.PHONY : test.c.i
+list.c.i:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/list.c.i
+.PHONY : list.c.i
 
-test.s: test.c.s
+list.s: list.c.s
 
-.PHONY : test.s
+.PHONY : list.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test.c.s
-.PHONY : test.c.s
+list.c.s:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/list.c.s
+.PHONY : list.c.s
+
+list/seqlist.obj: list/seqlist.c.obj
+
+.PHONY : list/seqlist.obj
+
+# target to build an object file
+list/seqlist.c.obj:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/list/seqlist.c.obj
+.PHONY : list/seqlist.c.obj
+
+list/seqlist.i: list/seqlist.c.i
+
+.PHONY : list/seqlist.i
+
+# target to preprocess a source file
+list/seqlist.c.i:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/list/seqlist.c.i
+.PHONY : list/seqlist.c.i
+
+list/seqlist.s: list/seqlist.c.s
+
+.PHONY : list/seqlist.s
+
+# target to generate assembly for a file
+list/seqlist.c.s:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/list/seqlist.c.s
+.PHONY : list/seqlist.c.s
 
 # Help Target
 help:
@@ -218,9 +245,12 @@ help:
 	@echo ... ary/safeary.obj
 	@echo ... ary/safeary.i
 	@echo ... ary/safeary.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... list.obj
+	@echo ... list.i
+	@echo ... list.s
+	@echo ... list/seqlist.obj
+	@echo ... list/seqlist.i
+	@echo ... list/seqlist.s
 .PHONY : help
 
 

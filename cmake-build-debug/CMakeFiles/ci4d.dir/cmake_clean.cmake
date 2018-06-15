@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ci4d.dir/ary.c.obj"
-  "CMakeFiles/ci4d.dir/test.c.obj"
+  "CMakeFiles/ci4d.dir/list.c.obj"
+  "CMakeFiles/ci4d.dir/list/seqlist.c.obj"
   "CMakeFiles/ci4d.dir/ary/safeary.c.obj"
   "libci4d.pdb"
   "libci4d.a"

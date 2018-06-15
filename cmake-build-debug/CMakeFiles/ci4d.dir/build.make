@@ -80,33 +80,57 @@ CMakeFiles/ci4d.dir/ary.c.obj.provides: CMakeFiles/ci4d.dir/ary.c.obj.requires
 CMakeFiles/ci4d.dir/ary.c.obj.provides.build: CMakeFiles/ci4d.dir/ary.c.obj
 
 
-CMakeFiles/ci4d.dir/test.c.obj: CMakeFiles/ci4d.dir/flags.make
-CMakeFiles/ci4d.dir/test.c.obj: ../test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joseph\Documents\Programming\ci4d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ci4d.dir/test.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ci4d.dir\test.c.obj   -c C:\Users\Joseph\Documents\Programming\ci4d\test.c
+CMakeFiles/ci4d.dir/list.c.obj: CMakeFiles/ci4d.dir/flags.make
+CMakeFiles/ci4d.dir/list.c.obj: ../list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joseph\Documents\Programming\ci4d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ci4d.dir/list.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ci4d.dir\list.c.obj   -c C:\Users\Joseph\Documents\Programming\ci4d\list.c
 
-CMakeFiles/ci4d.dir/test.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ci4d.dir/test.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joseph\Documents\Programming\ci4d\test.c > CMakeFiles\ci4d.dir\test.c.i
+CMakeFiles/ci4d.dir/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ci4d.dir/list.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joseph\Documents\Programming\ci4d\list.c > CMakeFiles\ci4d.dir\list.c.i
 
-CMakeFiles/ci4d.dir/test.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ci4d.dir/test.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joseph\Documents\Programming\ci4d\test.c -o CMakeFiles\ci4d.dir\test.c.s
+CMakeFiles/ci4d.dir/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ci4d.dir/list.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joseph\Documents\Programming\ci4d\list.c -o CMakeFiles\ci4d.dir\list.c.s
 
-CMakeFiles/ci4d.dir/test.c.obj.requires:
+CMakeFiles/ci4d.dir/list.c.obj.requires:
 
-.PHONY : CMakeFiles/ci4d.dir/test.c.obj.requires
+.PHONY : CMakeFiles/ci4d.dir/list.c.obj.requires
 
-CMakeFiles/ci4d.dir/test.c.obj.provides: CMakeFiles/ci4d.dir/test.c.obj.requires
-	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test.c.obj.provides.build
-.PHONY : CMakeFiles/ci4d.dir/test.c.obj.provides
+CMakeFiles/ci4d.dir/list.c.obj.provides: CMakeFiles/ci4d.dir/list.c.obj.requires
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/list.c.obj.provides.build
+.PHONY : CMakeFiles/ci4d.dir/list.c.obj.provides
 
-CMakeFiles/ci4d.dir/test.c.obj.provides.build: CMakeFiles/ci4d.dir/test.c.obj
+CMakeFiles/ci4d.dir/list.c.obj.provides.build: CMakeFiles/ci4d.dir/list.c.obj
+
+
+CMakeFiles/ci4d.dir/list/seqlist.c.obj: CMakeFiles/ci4d.dir/flags.make
+CMakeFiles/ci4d.dir/list/seqlist.c.obj: ../list/seqlist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joseph\Documents\Programming\ci4d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ci4d.dir/list/seqlist.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ci4d.dir\list\seqlist.c.obj   -c C:\Users\Joseph\Documents\Programming\ci4d\list\seqlist.c
+
+CMakeFiles/ci4d.dir/list/seqlist.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ci4d.dir/list/seqlist.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joseph\Documents\Programming\ci4d\list\seqlist.c > CMakeFiles\ci4d.dir\list\seqlist.c.i
+
+CMakeFiles/ci4d.dir/list/seqlist.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ci4d.dir/list/seqlist.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joseph\Documents\Programming\ci4d\list\seqlist.c -o CMakeFiles\ci4d.dir\list\seqlist.c.s
+
+CMakeFiles/ci4d.dir/list/seqlist.c.obj.requires:
+
+.PHONY : CMakeFiles/ci4d.dir/list/seqlist.c.obj.requires
+
+CMakeFiles/ci4d.dir/list/seqlist.c.obj.provides: CMakeFiles/ci4d.dir/list/seqlist.c.obj.requires
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/list/seqlist.c.obj.provides.build
+.PHONY : CMakeFiles/ci4d.dir/list/seqlist.c.obj.provides
+
+CMakeFiles/ci4d.dir/list/seqlist.c.obj.provides.build: CMakeFiles/ci4d.dir/list/seqlist.c.obj
 
 
 CMakeFiles/ci4d.dir/ary/safeary.c.obj: CMakeFiles/ci4d.dir/flags.make
 CMakeFiles/ci4d.dir/ary/safeary.c.obj: ../ary/safeary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joseph\Documents\Programming\ci4d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ci4d.dir/ary/safeary.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joseph\Documents\Programming\ci4d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ci4d.dir/ary/safeary.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ci4d.dir\ary\safeary.c.obj   -c C:\Users\Joseph\Documents\Programming\ci4d\ary\safeary.c
 
 CMakeFiles/ci4d.dir/ary/safeary.c.i: cmake_force
@@ -131,18 +155,20 @@ CMakeFiles/ci4d.dir/ary/safeary.c.obj.provides.build: CMakeFiles/ci4d.dir/ary/sa
 # Object files for target ci4d
 ci4d_OBJECTS = \
 "CMakeFiles/ci4d.dir/ary.c.obj" \
-"CMakeFiles/ci4d.dir/test.c.obj" \
+"CMakeFiles/ci4d.dir/list.c.obj" \
+"CMakeFiles/ci4d.dir/list/seqlist.c.obj" \
 "CMakeFiles/ci4d.dir/ary/safeary.c.obj"
 
 # External object files for target ci4d
 ci4d_EXTERNAL_OBJECTS =
 
 libci4d.a: CMakeFiles/ci4d.dir/ary.c.obj
-libci4d.a: CMakeFiles/ci4d.dir/test.c.obj
+libci4d.a: CMakeFiles/ci4d.dir/list.c.obj
+libci4d.a: CMakeFiles/ci4d.dir/list/seqlist.c.obj
 libci4d.a: CMakeFiles/ci4d.dir/ary/safeary.c.obj
 libci4d.a: CMakeFiles/ci4d.dir/build.make
 libci4d.a: CMakeFiles/ci4d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Joseph\Documents\Programming\ci4d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libci4d.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Joseph\Documents\Programming\ci4d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libci4d.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\ci4d.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ci4d.dir\link.txt --verbose=$(VERBOSE)
 
@@ -152,7 +178,8 @@ CMakeFiles/ci4d.dir/build: libci4d.a
 .PHONY : CMakeFiles/ci4d.dir/build
 
 CMakeFiles/ci4d.dir/requires: CMakeFiles/ci4d.dir/ary.c.obj.requires
-CMakeFiles/ci4d.dir/requires: CMakeFiles/ci4d.dir/test.c.obj.requires
+CMakeFiles/ci4d.dir/requires: CMakeFiles/ci4d.dir/list.c.obj.requires
+CMakeFiles/ci4d.dir/requires: CMakeFiles/ci4d.dir/list/seqlist.c.obj.requires
 CMakeFiles/ci4d.dir/requires: CMakeFiles/ci4d.dir/ary/safeary.c.obj.requires
 
 .PHONY : CMakeFiles/ci4d.dir/requires

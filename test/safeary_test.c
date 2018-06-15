@@ -3,7 +3,7 @@
 //
 
 #include <stdio.h>
-#include "ci4d.h"
+#include "../ci4d.h"
 
 int main()
 {
@@ -12,4 +12,6 @@ int main()
 
     Ary.set(mine, 7, PTR(int, 4));
     printf("value: %d\n", *(int *)Ary.get(mine, 7));
+
+    Ary.kill(mine);
 }

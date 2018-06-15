@@ -1,0 +1,13 @@
+Item:
+    A piece of data that the user wishes to store.
+    Implemented as a void *.
+
+Node:
+    Something which has an item.
+    Implemented as a union.
+
+Container:
+    Something which has an item or a node.
+
+Data structure:
+    A collection of items.

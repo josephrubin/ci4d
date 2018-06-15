@@ -6,7 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Joseph/Documents/Programming/ci4d/ary.c" "C:/Users/Joseph/Documents/Programming/ci4d/cmake-build-debug/CMakeFiles/ci4d.dir/ary.c.obj"
   "C:/Users/Joseph/Documents/Programming/ci4d/ary/safeary.c" "C:/Users/Joseph/Documents/Programming/ci4d/cmake-build-debug/CMakeFiles/ci4d.dir/ary/safeary.c.obj"
-  "C:/Users/Joseph/Documents/Programming/ci4d/test.c" "C:/Users/Joseph/Documents/Programming/ci4d/cmake-build-debug/CMakeFiles/ci4d.dir/test.c.obj"
+  "C:/Users/Joseph/Documents/Programming/ci4d/list.c" "C:/Users/Joseph/Documents/Programming/ci4d/cmake-build-debug/CMakeFiles/ci4d.dir/list.c.obj"
+  "C:/Users/Joseph/Documents/Programming/ci4d/list/seqlist.c" "C:/Users/Joseph/Documents/Programming/ci4d/cmake-build-debug/CMakeFiles/ci4d.dir/list/seqlist.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

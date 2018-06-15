@@ -1,2 +1,2 @@
-C:\MinGW\bin\ar.exe qc libci4d.a  CMakeFiles/ci4d.dir/ary.c.obj CMakeFiles/ci4d.dir/test.c.obj CMakeFiles/ci4d.dir/ary/safeary.c.obj
+C:\MinGW\bin\ar.exe qc libci4d.a  CMakeFiles/ci4d.dir/ary.c.obj CMakeFiles/ci4d.dir/list.c.obj CMakeFiles/ci4d.dir/list/seqlist.c.obj CMakeFiles/ci4d.dir/ary/safeary.c.obj
 C:\MinGW\bin\ranlib.exe libci4d.a
