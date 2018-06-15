@@ -7,6 +7,8 @@
 
 #include "../ary.h"
 
+ARY *_safeary_make(int capacity);
+
 void safeary_kill(ARY *this);
 
 int safeary_capacity(ARY *this);

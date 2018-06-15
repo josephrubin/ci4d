@@ -6,40 +6,25 @@
 #include "util/util.h"
 #include "list/seqlist.h"
 
-// _____________
-// MAKE METHODS.
+// _____________________________
+// CONTROLLER METHODS (NO-MAKE).
 
-static LIST *seqlist(int capacity)
-{
-    mlc(LIST, make);
-
-    make->capacity = capacity;
-
-    make->_kill = seqlist_kill;
-    make->_size = seqlist_size;
-    make->_append = seqlist_append;
-    make->_prepend = seqlist_prepend;
-}
-
-// _________________________
-// OTHER CONTROLLER METHODS.
-
-static void kill(struct s_LIST *this)
+static void kill(LIST *this)
 {
     return this->_kill(this);
 }
 
-static int size(struct s_LIST *this)
+static int size(LIST *this)
 {
     return this->_size(this);
 }
 
-static void append(struct s_LIST *this, void *item)
+static void append(LIST *this, void *item)
 {
     return this->_append(this, item);
 }
 
-static void prepend(struct s_LIST *this, void *item)
+static void prepend(LIST *this, void *item)
 {
     return this->_prepend(this, item);
 }
@@ -47,5 +32,5 @@ static void prepend(struct s_LIST *this, void *item)
 // ___________
 // CONTROLLER.
 
-struct s_c_LIST List = {&seqlist,
+struct s_c_LIST List = {&_seqlist_make,
                       &kill, &size, &append, &prepend};

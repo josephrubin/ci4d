@@ -9,8 +9,10 @@ struct s_ARY;
 
 // ___________________________
 // MAKE (all data structures).
-//todo: maybe the make should be like anything else. make the struct first, and call make on it.
-//typedef struct s_ARY *(*safeary_make)(int capacity);
+
+typedef struct s_ARY  *(*safeary_make)(int capacity);
+
+typedef struct s_LIST *(*seqlist_make)(int capacity);
 
 // ____
 // ARY.

@@ -6,25 +6,8 @@
 #include "util/util.h"
 #include "ary/safeary.h"
 
-static void kill(struct s_ARY *this);
-
-// _____________
-// MAKE METHODS.
-
-static ARY *safeary(int capacity)
-{
-    mlc(ARY, make);
-
-    make->capacity = capacity;
-
-    make->_kill = safeary_kill;
-    make->_capacity = safeary_capacity;
-    make->_get = safeary_get;
-    make->_set = safeary_set;
-}
-
-// _________________________
-// OTHER CONTROLLER METHODS.
+// _____________________________
+// CONTROLLER METHODS (NO-MAKE).
 
 static void kill(struct s_ARY *this)
 {
@@ -49,5 +32,5 @@ static void set(struct s_ARY *this, int index, void *value)
 // ___________
 // CONTROLLER.
 
-struct s_c_ARY Ary = {&safeary,
+struct s_c_ARY Ary = {&_safeary_make,
                         &kill, &capacity, &get, &set};

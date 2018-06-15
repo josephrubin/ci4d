@@ -18,7 +18,7 @@
     #define throw(msg) fprintf(stderr, "Error: " #msg "\n"); exit(EXIT_FAILURE);
 #endif
 
-#define mlc(type, name)\
+#define mlc(type, name, kill)\
     type *name = malloc(sizeof *name);\
     if (!name)\
     {\

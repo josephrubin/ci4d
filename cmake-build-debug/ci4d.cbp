@@ -104,6 +104,12 @@
 		<Unit filename="C:/Users/Joseph/Documents/Programming/ci4d/list/seqlist.h">
 			<Option target="ci4d"/>
 		</Unit>
+		<Unit filename="C:/Users/Joseph/Documents/Programming/ci4d/test/safeary_test.c">
+			<Option target="ci4d"/>
+		</Unit>
+		<Unit filename="C:/Users/Joseph/Documents/Programming/ci4d/test/seqlist_test.c">
+			<Option target="ci4d"/>
+		</Unit>
 		<Unit filename="C:/Users/Joseph/Documents/Programming/ci4d/util/util.h">
 			<Option target="ci4d"/>
 		</Unit>

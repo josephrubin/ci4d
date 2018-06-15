@@ -230,6 +230,60 @@ list/seqlist.c.s:
 	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/list/seqlist.c.s
 .PHONY : list/seqlist.c.s
 
+test/safeary_test.obj: test/safeary_test.c.obj
+
+.PHONY : test/safeary_test.obj
+
+# target to build an object file
+test/safeary_test.c.obj:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test/safeary_test.c.obj
+.PHONY : test/safeary_test.c.obj
+
+test/safeary_test.i: test/safeary_test.c.i
+
+.PHONY : test/safeary_test.i
+
+# target to preprocess a source file
+test/safeary_test.c.i:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test/safeary_test.c.i
+.PHONY : test/safeary_test.c.i
+
+test/safeary_test.s: test/safeary_test.c.s
+
+.PHONY : test/safeary_test.s
+
+# target to generate assembly for a file
+test/safeary_test.c.s:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test/safeary_test.c.s
+.PHONY : test/safeary_test.c.s
+
+test/seqlist_test.obj: test/seqlist_test.c.obj
+
+.PHONY : test/seqlist_test.obj
+
+# target to build an object file
+test/seqlist_test.c.obj:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test/seqlist_test.c.obj
+.PHONY : test/seqlist_test.c.obj
+
+test/seqlist_test.i: test/seqlist_test.c.i
+
+.PHONY : test/seqlist_test.i
+
+# target to preprocess a source file
+test/seqlist_test.c.i:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test/seqlist_test.c.i
+.PHONY : test/seqlist_test.c.i
+
+test/seqlist_test.s: test/seqlist_test.c.s
+
+.PHONY : test/seqlist_test.s
+
+# target to generate assembly for a file
+test/seqlist_test.c.s:
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test/seqlist_test.c.s
+.PHONY : test/seqlist_test.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -251,6 +305,12 @@ help:
 	@echo ... list/seqlist.obj
 	@echo ... list/seqlist.i
 	@echo ... list/seqlist.s
+	@echo ... test/safeary_test.obj
+	@echo ... test/safeary_test.i
+	@echo ... test/safeary_test.s
+	@echo ... test/seqlist_test.obj
+	@echo ... test/seqlist_test.i
+	@echo ... test/seqlist_test.s
 .PHONY : help
 
 

@@ -73,12 +73,12 @@ struct s_LIST
  */
 struct s_c_LIST
 {
-    safeary_make safeary;
+    seqlist_make safeary;
 
-    ary_kill kill;
-    ary_capacity capacity;
-    ary_get get;
-    ary_set set;
+    list_kill kill;
+    list_size size;
+    list_append append;
+    list_prepend prepend;
 };
 
 extern struct s_c_LIST List;

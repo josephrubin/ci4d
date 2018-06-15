@@ -50,3 +50,20 @@ void safeary_set(struct s_ARY *this, int index, void *value)
     }
     this->items[index] = value;
 }
+
+/**
+ * @private
+ */
+ARY *_safeary_make(int capacity)
+{
+    mlc(ARY, make, safeary_kill);
+
+    make->capacity = capacity;
+
+    make->_kill = safeary_kill;
+    make->_capacity = safeary_capacity;
+    make->_get = safeary_get;
+    make->_set = safeary_set;
+
+    return make;
+}

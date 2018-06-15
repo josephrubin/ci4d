@@ -7,6 +7,8 @@
 
 #include "../list.h"
 
+LIST *_seqlist_make(int capacity);
+
 void seqlist_kill(LIST *this);
 
 int seqlist_size(LIST *this);

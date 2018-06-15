@@ -12,27 +12,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6cbe15d-2327-4f1b-9192-1b9789ed88d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/list.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/seqlist.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/seqlist.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terms" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/seqlist_test.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ary.c" beforeDir="false" afterPath="$PROJECT_DIR$/ary.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ary/safeary.c" beforeDir="false" afterPath="$PROJECT_DIR$/ary/safeary.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ary/safeary.h" beforeDir="false" afterPath="$PROJECT_DIR$/ary/safeary.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ci4d.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ci4d.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ci4d.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/convention.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ftypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/ftypes.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test/safeary_test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list.c" beforeDir="false" afterPath="$PROJECT_DIR$/list.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list.h" beforeDir="false" afterPath="$PROJECT_DIR$/list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/seqlist.c" beforeDir="false" afterPath="$PROJECT_DIR$/list/seqlist.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/seqlist.h" beforeDir="false" afterPath="$PROJECT_DIR$/list/seqlist.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/util/util.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,19 +45,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="terms" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/terms">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ary.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ary.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="115">
               <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
             </state>
           </provider>
@@ -66,8 +57,8 @@
       <file leaf-file-name="list.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+            <state relative-caret-position="302">
+              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -75,8 +66,8 @@
       <file leaf-file-name="ftypes.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ftypes.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+            <state relative-caret-position="238">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -84,8 +75,8 @@
       <file leaf-file-name="ary.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ary.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="183">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="e#41#57#0" expanded="true" />
               </folding>
@@ -93,13 +84,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="557">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#42#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="safeary_test.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/safeary_test.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="e#41#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,8 +111,8 @@
       <file leaf-file-name="safeary.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ary/safeary.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="659">
+              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
               </folding>
@@ -117,32 +120,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seqlist.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/seqlist.c">
+      <file leaf-file-name="seqlist_test.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/seqlist_test.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            <state relative-caret-position="204">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
-                <element signature="e#42#61#0" expanded="true" />
+                <element signature="e#42#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="safeary.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ary/safeary.h">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="85">
+              <caret line="5" column="168" selection-start-line="5" selection-start-column="168" selection-end-line="5" selection-end-column="168" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seqlist.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/list/seqlist.h">
+      <file leaf-file-name="seqlist.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list/seqlist.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="234">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="e#42#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +166,6 @@
         <option value="$PROJECT_DIR$/cmake-build-debug/convention.txt" />
         <option value="$PROJECT_DIR$/safeary.c" />
         <option value="$PROJECT_DIR$/util/util.c" />
-        <option value="$PROJECT_DIR$/util/util.h" />
         <option value="$PROJECT_DIR$/ci4d.h" />
         <option value="$PROJECT_DIR$/test.c" />
         <option value="$PROJECT_DIR$/test/test.c" />
@@ -168,15 +173,16 @@
         <option value="$PROJECT_DIR$/test/seqlist_test.c" />
         <option value="$PROJECT_DIR$/ary.h" />
         <option value="$PROJECT_DIR$/terms" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/ary/safeary.h" />
-        <option value="$PROJECT_DIR$/list/seqlist.h" />
-        <option value="$PROJECT_DIR$/list.h" />
-        <option value="$PROJECT_DIR$/list/seqlist.c" />
-        <option value="$PROJECT_DIR$/ftypes.h" />
+        <option value="$PROJECT_DIR$/util/util.h" />
         <option value="$PROJECT_DIR$/ary/safeary.c" />
         <option value="$PROJECT_DIR$/ary.c" />
+        <option value="$PROJECT_DIR$/ftypes.h" />
+        <option value="$PROJECT_DIR$/list/seqlist.c" />
+        <option value="$PROJECT_DIR$/list/seqlist.h" />
         <option value="$PROJECT_DIR$/list.c" />
+        <option value="$PROJECT_DIR$/list.h" />
+        <option value="$PROJECT_DIR$/ary/safeary.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -286,20 +292,20 @@
       <workItem from="1528405756424" duration="8745000" />
       <workItem from="1528900481358" duration="65000" />
       <workItem from="1528900576722" duration="1810000" />
-      <workItem from="1529062947022" duration="5805000" />
+      <workItem from="1529062947022" duration="7354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16425000" />
+    <option name="totallyTimeSpent" value="17974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18821293" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18821293" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="CMake" order="3" weight="0.3293011" />
+      <window_info active="true" anchor="bottom" id="CMake" order="3" visible="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Run" order="6" />
@@ -495,13 +501,6 @@
     <entry file="file://$PROJECT_DIR$/util/util.c" />
     <entry file="file://$PROJECT_DIR$/library.c" />
     <entry file="file://$PROJECT_DIR$/library.h" />
-    <entry file="file://$PROJECT_DIR$/util/util.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -519,26 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/safeary_test.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/seqlist_test.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="e#42#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,85 +569,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/util/util.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ary.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="77" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+        <state relative-caret-position="323">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list/seqlist.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ary/safeary.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list/seqlist.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        <state relative-caret-position="234">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ftypes.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ary/safeary.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ary/safeary.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="659">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/list.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#42#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ary.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="183">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="e#41#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list.c">
+    <entry file="file://$PROJECT_DIR$/ftypes.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="238">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ary.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/seqlist_test.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <element signature="e#42#59#0" expanded="true" />
+            <element signature="e#42#60#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/safeary_test.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="168" selection-start-line="5" selection-start-column="168" selection-end-line="5" selection-end-column="168" />
         </state>
       </provider>
     </entry>

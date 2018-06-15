@@ -52,3 +52,18 @@ void seqlist_prepend(LIST *this, void *item)
     // Insert the new item.
     this->containers[0] = item;
 }
+
+/**
+ * @private
+ */
+static LIST *_seqlist_make(int capacity)
+{
+    mlc(LIST, make, seqlist_kill);
+
+    make->capacity = capacity;
+
+    make->_kill = seqlist_kill;
+    make->_size = seqlist_size;
+    make->_append = seqlist_append;
+    make->_prepend = seqlist_prepend;
+}

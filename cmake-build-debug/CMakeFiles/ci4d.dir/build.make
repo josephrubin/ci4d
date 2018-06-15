@@ -152,12 +152,62 @@ CMakeFiles/ci4d.dir/ary/safeary.c.obj.provides: CMakeFiles/ci4d.dir/ary/safeary.
 CMakeFiles/ci4d.dir/ary/safeary.c.obj.provides.build: CMakeFiles/ci4d.dir/ary/safeary.c.obj
 
 
+CMakeFiles/ci4d.dir/test/safeary_test.c.obj: CMakeFiles/ci4d.dir/flags.make
+CMakeFiles/ci4d.dir/test/safeary_test.c.obj: ../test/safeary_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joseph\Documents\Programming\ci4d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ci4d.dir/test/safeary_test.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ci4d.dir\test\safeary_test.c.obj   -c C:\Users\Joseph\Documents\Programming\ci4d\test\safeary_test.c
+
+CMakeFiles/ci4d.dir/test/safeary_test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ci4d.dir/test/safeary_test.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joseph\Documents\Programming\ci4d\test\safeary_test.c > CMakeFiles\ci4d.dir\test\safeary_test.c.i
+
+CMakeFiles/ci4d.dir/test/safeary_test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ci4d.dir/test/safeary_test.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joseph\Documents\Programming\ci4d\test\safeary_test.c -o CMakeFiles\ci4d.dir\test\safeary_test.c.s
+
+CMakeFiles/ci4d.dir/test/safeary_test.c.obj.requires:
+
+.PHONY : CMakeFiles/ci4d.dir/test/safeary_test.c.obj.requires
+
+CMakeFiles/ci4d.dir/test/safeary_test.c.obj.provides: CMakeFiles/ci4d.dir/test/safeary_test.c.obj.requires
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test/safeary_test.c.obj.provides.build
+.PHONY : CMakeFiles/ci4d.dir/test/safeary_test.c.obj.provides
+
+CMakeFiles/ci4d.dir/test/safeary_test.c.obj.provides.build: CMakeFiles/ci4d.dir/test/safeary_test.c.obj
+
+
+CMakeFiles/ci4d.dir/test/seqlist_test.c.obj: CMakeFiles/ci4d.dir/flags.make
+CMakeFiles/ci4d.dir/test/seqlist_test.c.obj: ../test/seqlist_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Joseph\Documents\Programming\ci4d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ci4d.dir/test/seqlist_test.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ci4d.dir\test\seqlist_test.c.obj   -c C:\Users\Joseph\Documents\Programming\ci4d\test\seqlist_test.c
+
+CMakeFiles/ci4d.dir/test/seqlist_test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ci4d.dir/test/seqlist_test.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Joseph\Documents\Programming\ci4d\test\seqlist_test.c > CMakeFiles\ci4d.dir\test\seqlist_test.c.i
+
+CMakeFiles/ci4d.dir/test/seqlist_test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ci4d.dir/test/seqlist_test.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Joseph\Documents\Programming\ci4d\test\seqlist_test.c -o CMakeFiles\ci4d.dir\test\seqlist_test.c.s
+
+CMakeFiles/ci4d.dir/test/seqlist_test.c.obj.requires:
+
+.PHONY : CMakeFiles/ci4d.dir/test/seqlist_test.c.obj.requires
+
+CMakeFiles/ci4d.dir/test/seqlist_test.c.obj.provides: CMakeFiles/ci4d.dir/test/seqlist_test.c.obj.requires
+	$(MAKE) -f CMakeFiles\ci4d.dir\build.make CMakeFiles/ci4d.dir/test/seqlist_test.c.obj.provides.build
+.PHONY : CMakeFiles/ci4d.dir/test/seqlist_test.c.obj.provides
+
+CMakeFiles/ci4d.dir/test/seqlist_test.c.obj.provides.build: CMakeFiles/ci4d.dir/test/seqlist_test.c.obj
+
+
 # Object files for target ci4d
 ci4d_OBJECTS = \
 "CMakeFiles/ci4d.dir/ary.c.obj" \
 "CMakeFiles/ci4d.dir/list.c.obj" \
 "CMakeFiles/ci4d.dir/list/seqlist.c.obj" \
-"CMakeFiles/ci4d.dir/ary/safeary.c.obj"
+"CMakeFiles/ci4d.dir/ary/safeary.c.obj" \
+"CMakeFiles/ci4d.dir/test/safeary_test.c.obj" \
+"CMakeFiles/ci4d.dir/test/seqlist_test.c.obj"
 
 # External object files for target ci4d
 ci4d_EXTERNAL_OBJECTS =
@@ -166,9 +216,11 @@ libci4d.a: CMakeFiles/ci4d.dir/ary.c.obj
 libci4d.a: CMakeFiles/ci4d.dir/list.c.obj
 libci4d.a: CMakeFiles/ci4d.dir/list/seqlist.c.obj
 libci4d.a: CMakeFiles/ci4d.dir/ary/safeary.c.obj
+libci4d.a: CMakeFiles/ci4d.dir/test/safeary_test.c.obj
+libci4d.a: CMakeFiles/ci4d.dir/test/seqlist_test.c.obj
 libci4d.a: CMakeFiles/ci4d.dir/build.make
 libci4d.a: CMakeFiles/ci4d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Joseph\Documents\Programming\ci4d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C static library libci4d.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Joseph\Documents\Programming\ci4d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library libci4d.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\ci4d.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ci4d.dir\link.txt --verbose=$(VERBOSE)
 
@@ -181,6 +233,8 @@ CMakeFiles/ci4d.dir/requires: CMakeFiles/ci4d.dir/ary.c.obj.requires
 CMakeFiles/ci4d.dir/requires: CMakeFiles/ci4d.dir/list.c.obj.requires
 CMakeFiles/ci4d.dir/requires: CMakeFiles/ci4d.dir/list/seqlist.c.obj.requires
 CMakeFiles/ci4d.dir/requires: CMakeFiles/ci4d.dir/ary/safeary.c.obj.requires
+CMakeFiles/ci4d.dir/requires: CMakeFiles/ci4d.dir/test/safeary_test.c.obj.requires
+CMakeFiles/ci4d.dir/requires: CMakeFiles/ci4d.dir/test/seqlist_test.c.obj.requires
 
 .PHONY : CMakeFiles/ci4d.dir/requires
 
